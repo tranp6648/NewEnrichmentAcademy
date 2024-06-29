@@ -1,0 +1,37 @@
+.breadcroumb-area {
+    background-repeat: no-repeat;
+}
+.breadcroumb-area {
+    background-image: url(https://edupls.themepul.com/wp-content/uploads/2024/04/Hero-section.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.breadcroumb-area {
+    position: relative;
+    background-color: #F6F7FA;
+    text-align: center;
+    padding: 175px 0 175px;
+    color: #ffffff;
+  
+}
+.breadcroumn-contnt .bre-sub a {
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.breadcroumn-contnt .bre-sub {
+    margin-top: 10px;
+}
+.breadcroumn-contnt .bre-sub {
+    margin-top: 10px;
+}
+.breadcroumn-contnt .page-title {
+    margin: 0;
+    padding: 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+    color:#ffffff;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 500;
+}

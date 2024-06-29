@@ -43,123 +43,183 @@ public partial class DatabaseContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=MSI-VTNQ;Database=EnrichmentAcademy;user id=sa;password=123;trusted_connection=true;encrypt=false");
+        => optionsBuilder.UseSqlServer("Server=LAPTOP-OARQJFR4;Database=OnlineCourse;user id=sa;password=123;trusted_connection=true;encrypt=false");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Account>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("Account_PK");
+            entity.ToTable("Account");
+
+            entity.Property(e => e.Email)
+                .HasMaxLength(200)
+                .IsUnicode(false);
+            entity.Property(e => e.Name)
+                .HasMaxLength(100)
+                .IsUnicode(false);
+            entity.Property(e => e.Otp)
+                .HasMaxLength(10)
+                .IsUnicode(false)
+                .HasColumnName("OTP");
+            entity.Property(e => e.Password)
+                .HasMaxLength(200)
+                .IsUnicode(false);
+            entity.Property(e => e.Phone)
+                .HasMaxLength(13)
+                .IsUnicode(false);
         });
 
         modelBuilder.Entity<AccountCourse>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("Account_Course_PK");
+            entity.ToTable("Account_Course");
 
             entity.HasOne(d => d.IdAccountNavigation).WithMany(p => p.AccountCourses)
+                .HasForeignKey(d => d.IdAccount)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("Account_Course_Account_FK");
+                .HasConstraintName("FK_Account_Course_Account");
 
             entity.HasOne(d => d.IdCourseNavigation).WithMany(p => p.AccountCourses)
+                .HasForeignKey(d => d.IdCourse)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("Account_Course_Course_FK");
+                .HasConstraintName("FK_Account_Course_Course");
         });
 
         modelBuilder.Entity<AccountPackage>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("Account_Package_PK");
+            entity.ToTable("Account_Package");
 
-            entity.HasOne(d => d.IdAccountNavigation).WithMany(p => p.AccountPackages)
+            entity.Property(e => e.Id).ValueGeneratedOnAdd();
+
+            entity.HasOne(d => d.IdNavigation).WithOne(p => p.AccountPackage)
+                .HasForeignKey<AccountPackage>(d => d.Id)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("Account_Package_Account_FK");
+                .HasConstraintName("FK_Account_Package_Account");
 
             entity.HasOne(d => d.IdPackageNavigation).WithMany(p => p.AccountPackages)
+                .HasForeignKey(d => d.IdPackage)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("Account_Package_Package_FK");
+                .HasConstraintName("FK_Account_Package_Package");
         });
 
         modelBuilder.Entity<Course>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("Course_PK");
+            entity.ToTable("Course");
+
+            entity.Property(e => e.Name)
+                .HasMaxLength(100)
+                .IsUnicode(false);
         });
 
         modelBuilder.Entity<CourseSubject>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("Course_Package_PK");
+            entity.ToTable("Course_Subject");
+
+            entity.HasOne(d => d.IdAccountNavigation).WithMany(p => p.CourseSubjects)
+                .HasForeignKey(d => d.IdAccount)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_Course_Subject_Account");
 
             entity.HasOne(d => d.IdCourseNavigation).WithMany(p => p.CourseSubjects)
+                .HasForeignKey(d => d.IdCourse)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("Course_Package_Course_FK");
-
-            entity.HasOne(d => d.IdSubjectNavigation).WithMany(p => p.CourseSubjects).HasConstraintName("Course_Package_Subject_FK");
+                .HasConstraintName("FK_Course_Subject_Course");
         });
 
         modelBuilder.Entity<Faculty>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("Faculty_PK");
+            entity.ToTable("Faculty");
+
+            entity.Property(e => e.Name)
+                .HasMaxLength(200)
+                .IsUnicode(false);
         });
 
         modelBuilder.Entity<Lesson>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("Lession_PK");
+            entity.ToTable("Lesson");
+
+            entity.Property(e => e.Doc)
+                .HasMaxLength(200)
+                .IsUnicode(false);
+            entity.Property(e => e.Link)
+                .HasMaxLength(200)
+                .IsUnicode(false);
+            entity.Property(e => e.Name)
+                .HasMaxLength(100)
+                .IsUnicode(false);
         });
 
         modelBuilder.Entity<LessonSubject>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("Lesson_Subject_PK");
+            entity.ToTable("Lesson_Subject");
 
-            entity.HasOne(d => d.IdLessonNavigation).WithMany(p => p.LessonSubjects)
+            entity.HasOne(d => d.IdPackageNavigation).WithMany(p => p.LessonSubjects)
+                .HasForeignKey(d => d.IdPackage)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("Lesson_Subject_Lesson_FK");
+                .HasConstraintName("FK_Lesson_Subject_Package");
 
             entity.HasOne(d => d.IdSubjectNavigation).WithMany(p => p.LessonSubjects)
+                .HasForeignKey(d => d.IdSubject)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("Lesson_Subject_Subject_FK");
+                .HasConstraintName("FK_Lesson_Subject_Subject");
         });
 
         modelBuilder.Entity<Package>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("Package_PK");
+            entity.ToTable("Package");
+
+            entity.Property(e => e.Name)
+                .HasMaxLength(200)
+                .IsUnicode(false);
         });
 
         modelBuilder.Entity<Photo>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("Photo_PK");
+            entity.ToTable("Photo");
+
+            entity.Property(e => e.Link)
+                .HasMaxLength(200)
+                .IsUnicode(false);
         });
 
         modelBuilder.Entity<Rating>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("Rating_PK");
+            entity.ToTable("Rating");
 
             entity.HasOne(d => d.IdAccountNavigation).WithMany(p => p.Ratings)
+                .HasForeignKey(d => d.IdAccount)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("Rating_Account_FK");
+                .HasConstraintName("FK_Rating_Account");
         });
 
         modelBuilder.Entity<Subject>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("Subject_PK");
+            entity.ToTable("Subject");
 
-            entity.HasOne(d => d.IdFacultyNavigation).WithMany(p => p.Subjects)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("Subject_Faculty_FK");
+            entity.Property(e => e.Name)
+                .HasMaxLength(200)
+                .IsUnicode(false);
+            entity.Property(e => e.Price).HasColumnType("money");
 
             entity.HasOne(d => d.IdPhotoNavigation).WithMany(p => p.Subjects)
+                .HasForeignKey(d => d.IdPhoto)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("Subject_Photo_FK");
+                .HasConstraintName("FK_Subject_Photo");
         });
 
         modelBuilder.Entity<SubjectPackage>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("Subject_Package_PK");
+            entity.ToTable("Subject_Package");
 
             entity.HasOne(d => d.IdPackageNavigation).WithMany(p => p.SubjectPackages)
+                .HasForeignKey(d => d.IdPackage)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("Subject_Package_Package_FK");
+                .HasConstraintName("FK_Subject_Package_Package");
 
             entity.HasOne(d => d.IdSubjectNavigation).WithMany(p => p.SubjectPackages)
+                .HasForeignKey(d => d.IdSubject)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("Subject_Package_Subject_FK");
+                .HasConstraintName("FK_Subject_Package_Subject");
         });
 
         OnModelCreatingPartial(modelBuilder);

@@ -1,0 +1,1488 @@
+@media (min-width: 768px) {
+    .elementor-column.elementor-col-100, .elementor-column[data-col="100"] {
+        width: 100%;
+    }
+}
+.elementor-widget-wrap>.elementor-element {
+    width: 100%;
+}
+.wpcf7 form .wpcf7-response-output {
+    margin: 2em 0.5em 1em;
+    padding: 0.2em 1em;
+    border: 2px solid #00a0d2;
+}
+.form-btn:hover{
+    background-color: #1C1C1C !important;
+    color: #ffffff !important;
+}
+.elementor-2545 .elementor-element.elementor-element-8c8df48 {
+    margin-top: 0px;
+    margin-bottom: 47px;
+}
+.contact-form-one-button.button .form-btn {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px 30px;
+    align-items: center;
+    position: relative;
+    border: none;
+    background: #179BD7;
+    color: #ffffff;
+    transition: .4s;
+    border-radius: 5px;
+    letter-spacing: 0.32px;
+    text-transform: capitalize;
+    font-family: 'Kanit', sans-serif;
+    line-height: normal;
+}
+.wpcf7-textarea{
+    min-height: 120px;
+    width: 100%;
+    color: #626262;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    padding: 13px 20px;
+    box-shadow: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+.contact-form-one input[type="text"] {
+    max-height: 60px;
+    border: 1px solid #E2E5E7;
+    color: #626262;
+    border-radius: 10px;
+    padding: 18px 20px;
+    box-shadow: none;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.elementor-widget-wrap {
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.service-two-des {
+    margin-bottom: 24px;
+}
+.elementor-2545 .elementor-element.elementor-element-fd8655e {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 120px 0px 120px 0px;
+}
+.elementor-2545 .elementor-element.elementor-element-9cdb2e8 .edupls-section-small-title {
+    font-family: "Kanit", Sans-serif;
+    background-color: #FFFFFF;
+}
+.edupls-list-title {
+    color: #1C1C1C;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.edupls-list-icon {
+    color: #179BD7;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-right: 13px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.edupls-list-box-item {
+    border-radius: 100px;
+    border: 1px solid #EEE;
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 15px 22px;
+    margin-bottom: 15px;
+}
+.elementor-2545 .elementor-element.elementor-element-6df360f .edupls-list-box-item {
+    text-align: left;
+    align-items: center;
+}
+.elementor-2545 .elementor-element.elementor-element-1e474be .edupls-section-title-wrapper {
+    justify-content: flex-start;
+}
+.elementor-2545 .elementor-element.elementor-element-e9c43ca .edupls-section-title-wrapper {
+    justify-content: flex-start;
+}
+.elementor-column {
+    position: relative;
+    min-height: 1px;
+    display: flex;
+}
+.elementor-2545 .elementor-element.elementor-element-ff64027:not(.elementor-motion-effects-element-type-background), .elementor-2545 .elementor-element.elementor-element-ff64027 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url(https://edupls.themepul.com/wp-content/uploads/2024/03/Way-choses-Us.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.elementor-2545 .elementor-element.elementor-element-ff64027 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 120px 0px 80px 0px;
+}
+a.theme-btns i {
+    margin-left: 10px;
+    font-size: 90%;
+    position: relative;
+    top: 2px;
+}
+.elementor-2545 .elementor-element.elementor-element-922de5d > .elementor-container > .elementor-column > .elementor-widget-wrap {
+    align-content: center;
+    align-items: center;
+}
+.elementor-2545 .elementor-element.elementor-element-da96feb {
+    text-align: left;
+}
+.elementor-2545 .elementor-element.elementor-element-da96feb > .elementor-widget-container {
+    margin: 0px 0px 0px -30px;
+}
+.elementor-widget-image img {
+    vertical-align: middle;
+    display: inline-block;
+}
+.elementor-2545 .elementor-element.elementor-element-17c6b80 .edupls-section-small-title {
+    font-family: "Kanit", Sans-serif;
+    background-color: #FFFFFF;
+}
+.elementor-2545 .elementor-element.elementor-element-17c6b80 .edupls-section-title-content {
+    text-align: left;
+}
+.elementor-2545 .elementor-element.elementor-element-e9c43ca .edupls-section-small-title {
+    font-family: "Kanit", Sans-serif;
+    background-color: #FFFFFF;
+}
+.elementor-2545 .elementor-element.elementor-element-e9c43ca .edupls-section-title-content {
+    text-align: left;
+}
+.elementor-2545 .elementor-element.elementor-element-17c6b80 .edupls-section-title-wrapper {
+    justify-content: flex-start;
+}
+.elementor-2545 .elementor-element.elementor-element-39678a7 .edupls-section-small-title {
+    background-color: #FFFFFF;
+}
+.elementor-2545 .elementor-element.elementor-element-640a2e8:not(.elementor-motion-effects-element-type-background), .elementor-2545 .elementor-element.elementor-element-640a2e8 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url(https://edupls.themepul.com/wp-content/uploads/2024/03/Testimoniles-e1711528527452.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slick-arrow {
+    border: none;
+    background: #179BD7;
+    color: #ffffff
+    ;
+    font-size: 16px;
+    height: 67px;
+    width: 67px;
+    border-radius: 100PX;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+.testi-v2-arrow button.slick-arrow {
+    color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 17px 30px;
+    height: unset;
+    width: unset;
+    letter-spacing: 0.5px;
+}
+.elementor-2545 .elementor-element.elementor-element-0829275 .testi-v2-arrow button:hover {
+    color: #FFFFFF;
+    background-color: #53515166;
+}
+.testi-v2-arrow {
+    display: flex;
+    position: absolute;
+    top: -19px;
+    right: 10px;
+}
+.elementor-2545 .elementor-element.elementor-element-0829275 .testi-v2-arrow button {
+    color: #179BD7;
+    background-color: #FFFFFF;
+}
+.elementor-2545 .elementor-element.elementor-element-39678a7 .edupls-section-title {
+    color: #FFFFFF;
+    margin: 20px 0px 0px 0px;
+}
+.elementor-2545 .elementor-element.elementor-element-640a2e8 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 120px 0px 120px 0px;
+}
+.elementor-2545 .elementor-element.elementor-element-41774b4 > .elementor-widget-container {
+    padding: 7px 10px 0px 10px;
+}
+.blog-one-date.grid {
+    position: absolute;
+    color: #ffffff;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 20px;
+    left: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #179BD7;
+}
+.blog-v1-comment i, .blog-v1-btn .theme-btns i {
+    font-size: 100%;
+    color: #179BD7;
+}
+.blog-v1-btn .theme-btns {
+    color: #1C1C1C;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-family: 'Kanit', sans-serif;
+    padding: 0;
+    background: transparent;
+    text-transform: capitalize;
+}
+.blog-v1-title {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+}
+.blog-v1-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+}
+.blog-v1-dec {
+    font-size: 14px;
+}
+.blog-v1-content {
+    padding: 22px 30px 23px;
+    border-bottom: 1px solid #DFDFDF;
+}
+.elementor-2545 .elementor-element.elementor-element-254daa8 .blog-v1-content {
+    text-align: left;
+}
+span.posted-on a {
+    color: #ffffff;
+}
+
+.elementor-2545 .elementor-element.elementor-element-254daa8 .blog-v1-wrapper .blog-v1-item-box .blog-v1-image img {
+    object-fit: cover;
+}
+.blog-v1-wrapper .blog-v1-item-box .blog-v1-image img {
+    height: 254px;
+    object-fit: cover;
+    transition: .4s;
+}
+.blog-v1-item-box {
+    border-radius: 10px;
+    border: 1px solid var(--line-des, #DFDFDF);
+    background: #ffffff;
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
+}
+.elementor-2545 .elementor-element.elementor-element-2fd4581 .edupls-section-title-content {
+    width: 57%;
+    text-align: center;
+}
+.elementor-2545 .elementor-element.elementor-element-4694f18 {
+    padding: 120px 0px 100px 0px;
+}
+.edupls-section-small-title {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    color:#179BD7;
+    box-shadow: 0px 8px 19px 0px rgba(0, 0, 0, 0.07);
+    padding: 10px 27px;
+    border-radius: 100px;
+    border: 1px solid #F6F5F5;
+    display: inline-block;
+    font-family: 'Kanit', sans-serif;
+    background: #fff;
+}
+.edupls-section-title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.elementor img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.elementor-2545 .elementor-element.elementor-element-39678a7 .edupls-section-title-wrapper {
+    justify-content: flex-start;
+}
+.elementor-widget-wrap>.elementor-element {
+    width: 100%;
+}
+section.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1220px;
+}
+.elementor-2545 .elementor-element.elementor-element-922de5d:not(.elementor-motion-effects-element-type-background), .elementor-2545 .elementor-element.elementor-element-922de5d > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url(https://edupls.themepul.com/wp-content/uploads/2024/03/About-section.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.elementor-2545 .elementor-element.elementor-element-922de5d {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 120px 0px 120px 0px;
+}
+.service-two-box:hover {
+    box-shadow: 0px 4px 51px 0px rgba(207, 214, 227, 0.52);
+    border: 1px solid transparent;
+}
+.service-two-box:hover .service-two-btn .theme-btns {
+    background:#179BD7;
+    color: #ffffff;
+}
+.service-two-btn .theme-btns {
+    color: #179BD7;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    background: transparent;
+    border-radius: 20px;
+    border: 0.5px solid #E1E8F3;
+    padding: 8px 18px;
+}
+.service-two-box {
+    padding:51px 24px;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    margin-bottom: 25px;
+    border-radius: 30px;
+    border: 1px solid #E1E8F3;
+    background: #ffffff;
+    text-align: center;
+}
+.service-two-icon {
+    display: inline-block;
+    font-size: 90px;
+    margin-bottom: 22px;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    position: relative;
+}
+.counter-one-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.elementor-2545 .elementor-element.elementor-element-e4af314 .counter-one-count-timer {
+    color: #179BD7;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 40px;
+}
+.elementor-2545 .elementor-element.elementor-element-e4af314 .counter-one-wrapper .counter-one-item {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.counter-one-icon {
+    font-size: 45px;
+    height: 90px;
+    width: 90px;
+    min-width: 90px;
+    margin-right: 25px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    border-radius: 100px;
+    border: 1px dashed #fff;
+    background: rgba(46, 71, 96, 0.14);
+    backdrop-filter: blur(6.5px);
+    position: relative;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+.counter-one-icon img {
+    height: 45px;
+    width: 45px;
+}
+.elementor-2545 .elementor-element.elementor-element-e4af314 .counter-one-item .counter-one-icon {
+    color: #179BD7;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 35px 0px rgba(34.99999999999996, 31.000000000000007, 80, 0.13);
+    margin: 0px 0px 15px 0px;
+}
+
+.elementor-2545 .elementor-element.elementor-element-e4af314 .counter-one-item .counter-one-counter-title {
+    color: #7B7E86;
+    font-family: "Kanit", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.elementor-2545 .elementor-element.elementor-element-e4af314 .counter-one-number span {
+    color: #179BD7;
+    font-size: 30px;
+    line-height: 40px;
+}
+.counter-one-number span, .counter-one-count-timer.timer {
+    display: inline-block;
+    margin-bottom: 0px;
+    color: #ffffff;
+    font-family:'Kanit', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.elementor-2545 .elementor-element.elementor-element-dd417ee > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) {
+    margin-bottom: 17px;
+}
+
+.counter-one-items{
+    max-width: 110%;
+}
+.elementor-2545 .elementor-element.elementor-element-fd8655e:not(.elementor-motion-effects-element-type-background), .elementor-2545 .elementor-element.elementor-element-fd8655e > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #F2F7F9;
+    background-image: url(https://edupls.themepul.com/wp-content/uploads/2024/03/Group-1000015286-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.elementor-2545 .elementor-element.elementor-element-e4af314 .counter-one-wrapper .counter-one-items {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+.elementor-2545 .elementor-element.elementor-element-e4af314 .counter-one-wrapper .counter-one-item {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.elementor-2545 .elementor-element.elementor-element-e4af314 .counter-one-item {
+    padding: 30px 25px 25px 25px;
+}
+.elementor-2545 .elementor-element.elementor-element-e9c43ca .edupls-section-title {
+    color: #FFFFFF;
+}
+.edupls-section-small-title {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    color: #179BD7;
+    box-shadow: 0px 8px 19px 0px rgba(0, 0, 0, 0.07);
+    padding: 10px 27px;
+    border-radius: 100px;
+    border: 1px solid #F6F5F5;
+    display: inline-block;
+    font-family:'Kanit', sans-serif;
+    background: #fff;
+}
+.cta-button-title {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 8px;
+}
+.elementor-2545 .elementor-element.elementor-element-3950226 .edupls-section-small-title {
+    font-family: "Kanit", Sans-serif;
+}
+.edupls-section-small-title {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    color: #179BD7;
+    box-shadow: 0px 8px 19px 0px rgba(0, 0, 0, 0.07);
+    padding: 10px 27px;
+    border-radius: 100px;
+    border: 1px solid #F6F5F5;
+    display: inline-block;
+
+    background: #fff;
+}
+.courses-two-tab-menu-wrap .nav {
+    gap: 30px;
+    margin-bottom: 55px;
+    justify-content: center;
+}
+.courses-two-tab-menu-wrap ul li .nav-link.active {
+    color: #179BD7;
+}
+.tab-content>.active {
+    display: block;
+}
+.tutor-avatar {
+    display: inline-flex;
+    flex-shrink: 0;
+    height: 36px;
+    width: 36px;
+    background-color: #fff;
+    box-shadow: 0px 0px 0px 1px #cdcfd5;
+    border-radius: 100px;
+    overflow: hidden;
+}
+.elementor a {
+    box-shadow: none;
+    text-decoration: none;
+}
+.courses-two-bottom-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elementor-2545 .elementor-element.elementor-element-f5b6521 .theme-btns {
+    flex-direction: row;
+}
+.elementor-2545 .elementor-element.elementor-element-f5b6521 .edupls-button-wrapper {
+    text-align: center;
+}
+.tutor-icon-star-bold:before {
+    content: "";
+}
+[class^=tutor-icon-], [class*=" tutor-icon-"] {
+    font-family: "tutor" !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.tutor-ratings-stars {
+    color: #FEC107;
+}
+.tutor-ratings-stars {
+    color: #ed9700;
+    margin: 0 -3px;
+    font-size: 16px;
+}
+.tutor-ratings {
+    display: flex;
+    align-items: center;
+}
+.courses-two-price {
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.courses-two-title {
+    color: #1C1C1C;
+    
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 18px;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px dashed rgba(123, 126, 134, 0.20);
+}
+.elementor a {
+    box-shadow: none;
+    text-decoration: none;
+}
+.courses-two-top-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.courses-two-lesson i {
+    color:#179BD7;
+    margin-right: 6px;
+}
+.courses-two-author-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.courses-two-author-name a {
+    color: #179BD7;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.tutor-ratio-1x1 {
+    padding-top: 100%;
+}
+.tutor-ratio>* {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+.tutor-ratio {
+    content: " ";
+    position: relative;
+    width: 100%;
+    display: block;
+}
+.courses-two-author-img .tutor-avatar {
+    height: 42px;
+    width: 42px;
+    display: block;
+}
+.tutor-avatar {
+    box-shadow: 0px 0px 0px 1px #E6E6E6;
+}
+.courses-two-category a {
+    border-radius: 2px;
+    background: #179BD7;
+    color: #ffffff;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 8px 15px;
+    position: relative;
+    top: -20px;
+    margin-left: 30px;
+}
+.courses-two-box {
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.10);
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+.courses-two-tab-menu-wrap ul li .nav-link {
+    border-radius: 10px;
+    border: 1px solid #E0E7F2;
+    background: #ffffff;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-family: 'Kanit', sans-serif;
+    color: #1C1C1C;
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.edupls-section-title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 58PX;
+    color: #1C1C1C;
+    margin-top: 15px;
+    margin-bottom: 22px;
+    text-transform: capitalize;
+}
+.elementor-2545 .elementor-element.elementor-element-3950226 .edupls-section-title-content {
+    width: 50%;
+    text-align: center;
+}
+.elementor-2545 .elementor-element.elementor-element-322b289 {
+    padding: 120px 0px 120px 0px;
+}
+.elementor-2545 .elementor-element.elementor-element-e9bcfd8 .cta-button-number {
+    color: #FFFFFF;
+}
+.cta-button-number {
+    color:#1C1C1C;
+    font-family:'Kanit', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.elementor-2545 .elementor-element.elementor-element-b1cc61a > .elementor-background-overlay {
+    background-image: url(https://edupls.themepul.com/wp-content/uploads/2024/03/bg.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+.elementor-2545 .elementor-element.elementor-element-1e474be > .elementor-widget-container {
+    margin: 0px 0px 24px 0px;
+}
+
+.elementor-2545 .elementor-element.elementor-element-70419df > .elementor-widget-container {
+    margin: 0px 0px 23px 0px;
+    padding: 0px 10px 0px 10px;
+}
+
+
+.elementor .elementor-background-overlay, .elementor .elementor-background-slideshow {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.elementor-2545 .elementor-element.elementor-element-b1cc61a {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 120px 0px 115px 0px;
+}
+.elementor-2545 .elementor-element.elementor-element-b1cc61a:not(.elementor-motion-effects-element-type-background), .elementor-2545 .elementor-element.elementor-element-b1cc61a > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: transparent;
+    background-image: linear-gradient(130deg, #EFF0F0 6%, #B4D8E700 88%);
+}
+.elementor-2545 .elementor-element.elementor-element-e9bcfd8 .cta-button-title {
+    color: #FFFFFF;
+}
+.elementor-2545 .elementor-element.elementor-element-e9bcfd8 .cta-button-title {
+    font-family: "Kumbh Sans", Sans-serif;
+    text-transform: capitalize;
+}
+.cta-button-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    width: 55px;
+    color: #179BD7;
+    border-radius: 100px;
+    margin-right: 20px;
+    border-radius: 100px;
+    border: 1px solid #E0E7F2;
+    background: #fff;
+    box-shadow: 0px 10px 21px 0px rgba(0, 0, 0, 0.12);
+}
+div#back-top {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    position: fixed;
+    right: 50px;
+    bottom: 30px;
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    transition: .3s;
+    z-index: 100;
+    color: #FFFFFF;
+    font-size: 25px;
+    opacity: 1;
+    visibility: visible;
+    background: #179BD7;
+}
+.cta_button-area {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+.blog-v1-comment {
+    font-size: 14px;
+}
+.blog-v1-item-box:hover .blog-v1-image img {
+    transform: scale(1.1);
+    opacity: 0.5;
+}
+.blog-v1-comment span {
+    margin-left: 5px;
+}
+a.theme-btns i {
+    margin-left: 10px;
+    font-size: 90%;
+    position: relative;
+    top: 2px;
+}
+.edupls-section-title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 58PX;
+    color: #1C1C1C;
+    margin-top: 15px;
+    margin-bottom: 22px;
+    text-transform: capitalize;
+}
+
+.elementor-2545 .elementor-element.elementor-element-ef158ea .edupls-section-title-content {
+    width: 50%;
+    text-align: center;
+}
+.position-relative {
+    position: relative !important;
+}
+.testi-v2-share {
+    color: #FFB422;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.elementor-2545 .elementor-element.elementor-element-3997764 > .elementor-container > .elementor-column > .elementor-widget-wrap {
+    align-content: center;
+    align-items: center;
+}
+.elementor-2545 .elementor-element.elementor-element-4fc79d1 .faq-accordion .accordion-item {
+    text-align: left;
+}
+.faq-accordion .accordion-body {
+    padding: 0px 18px 30px;
+    background: transparent;
+    font-weight: 500;
+}
+.faq-accordion .accordion-button {
+    border: none;
+    display: inline-block;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    padding: 25px 30px;
+    border-radius: 0 !important;
+    color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: #179BD7;
+}
+.faq-accordion .accordion-button::after {
+    position: absolute;
+    right: 30px;
+    background-image: none !important;
+    content: "\f070";
+    font-family: "Font Awesome 5 Free";
+    padding: 0;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    border-radius: 30px;
+    border-radius: 7px;
+    background: #ffffff;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    color: #179BD7;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0%, -50%);
+    top: 50%;
+}
+.accordion-header .accordion-button:not(.collapsed)::after {
+    background-image: none;
+    color: #fff;
+    background: #179BD7;
+    content: "\f06e";
+    font-family: "Font Awesome 5 Free";
+    transform: translate(0%, -50%);
+}
+.elementor-2545 .elementor-element.elementor-element-4fc79d1 .faq-accordion .accordion-button {
+    text-align: left;
+}
+.accordion-header .accordion-button:not(.collapsed) {
+    color: #179BD7;
+    background-color: transparent;
+}
+.elementor-2545 .elementor-element.elementor-element-096e693 .edupls-button-wrapper {
+    text-align: right;
+}
+a.theme-btns i {
+    margin-left: 10px;
+    font-size: 90%;
+    position: relative;
+    top: 2px;
+}
+.team-v4-image::before {
+    border-radius: 100%;
+}
+.team-v4-image {
+    position: relative;
+}
+.elementor-2545 .elementor-element.elementor-element-59abe67 .team-v4-item .team-v4-image img {
+    object-fit: cover;
+}
+.team-v4-item .team-v4-image img {
+    height: 400px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 4px solid #179BD7;
+    padding: 10px;
+}
+ul.team-v4-icon {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    bottom: 10px;
+    transition: .5s;
+    opacity: 0;
+}
+.team-v4-share-box:hover .team-v4-icon {
+    opacity: 1;
+    bottom: 50PX;
+}
+.team-v4-image::before {
+    border-radius: 100% !important;
+}
+.team-v4-title {
+    margin-top: 36px;
+    margin-bottom: 0px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+a.theme-btns i {
+    margin-left: 10px;
+    font-size: 90%;
+    position: relative;
+    top: 2px;
+}
+.cta_button-area {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+.elementor-2545 .elementor-element.elementor-element-e9bcfd8 .theme-btns:hover {
+    color: #179BD7;
+    background-color: #FFFFFF;
+}
+.elementor-2545 .elementor-element.elementor-element-6a4b160 .edupls-section-small-title {
+    background-color: #FFFFFF;
+}
+.elementor-2545 .elementor-element.elementor-element-6a4b160 .edupls-section-title-wrapper .edupls-section-title-content {
+    margin: 0px 0px 18px 0px;
+}
+.elementor-2545 .elementor-element.elementor-element-6a4b160 .edupls-section-title-content {
+    text-align: left;
+}
+.elementor-2545 .elementor-element.elementor-element-3d4065a > .elementor-element-populated {
+    padding: 100px 0px 100px 0px;
+}
+.elementor-2545 .elementor-element.elementor-element-3026452.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated {
+    align-content: flex-end;
+    align-items: flex-end;
+}
+.elementor-2545 .elementor-element.elementor-element-4aef234 > .elementor-container > .elementor-column > .elementor-widget-wrap {
+    align-content: center;
+    align-items: center;
+}
+.elementor-widget-image img {
+    vertical-align: middle;
+    display: inline-block;
+}
+.elementor-2545 .elementor-element.elementor-element-4aef234:not(.elementor-motion-effects-element-type-background), .elementor-2545 .elementor-element.elementor-element-4aef234 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url(https://edupls.themepul.com/wp-content/uploads/2024/03/Group-1000015289.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.elementor-2545 .elementor-element.elementor-element-4aef234 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+.team-v4-stitle {
+    color: #179BD7;
+    font-family:'Kanit', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    margin-top: 12px;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.team-v4-title a {
+    color: #1C1C1C;
+}
+
+.team-v4-image:hover::before {
+    -webkit-animation: circle .75s;
+    animation: circle .75s;
+}
+@keyframes circle{
+    0%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 1;
+    }
+    100%{
+        width: 100%;
+    height: 100%;
+    opacity: 0;
+    }
+}
+ul.team-v4-icon li a {
+    width: 40px;
+    height: 40px;
+    background: #179BD7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 0 2px;
+    margin-bottom: 0;
+    color: #ffffff;
+}
+.team-v4-item ul.team-v4-icon li {
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.team-v4-shear-plus-icon {
+    width: 54px;
+    height: 54px;
+    display: inline-flex;
+    border-radius: 54px;
+    background: #179BD7;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: #ffffff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    bottom: -20px;
+}
+.img-hover::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    background: rgba(255, 255, 255, .2);
+    border-radius: 0%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+.team-v4-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.elementor-2545 .elementor-element.elementor-element-50bd367 > .elementor-container > .elementor-column > .elementor-widget-wrap {
+    
+    align-items: flex-end;
+}
+.elementor-2545 .elementor-element.elementor-element-50bd367 {
+    margin-top: 0px;
+    margin-bottom: 60px;
+    padding: 0px 0px 0px 0px;
+}
+.elementor-2545 .elementor-element.elementor-element-d4d5312:not(.elementor-motion-effects-element-type-background), .elementor-2545 .elementor-element.elementor-element-d4d5312 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url(https://edupls.themepul.com/wp-content/uploads/2024/03/skil-sect6ion.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.elementor-2545 .elementor-element.elementor-element-6fbed44 {
+    padding: 120px 0px 110px 0px;
+}
+.elementor-2545 .elementor-element.elementor-element-43d9d20 .counter-one-item .counter-one-counter-title {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+
+.elementor-2545 .elementor-element.elementor-element-d4d5312 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 100px 0px 60px 0px;
+}
+.faq-accordion .accordion-item {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid #DFDFDF;
+    
+    background:#ffffff;
+}
+.elementor-2545 .elementor-element.elementor-element-0c45e2e > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute) {
+    margin-bottom: 17px;
+}
+.elementor-2545 .elementor-element.elementor-element-cffd45f > .elementor-widget-container {
+    margin: 0px 0px 17px 0px;
+}
+.elementor-2545 .elementor-element.elementor-element-3997764:not(.elementor-motion-effects-element-type-background), .elementor-2545 .elementor-element.elementor-element-3997764 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #F2F7F9;
+    background-image: url(https://edupls.themepul.com/wp-content/uploads/2024/03/Group-1000015285-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.elementor-2545 .elementor-element.elementor-element-3997764 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 120px 0px 100px 0px;
+}
+.elementor-2545 .elementor-element.elementor-element-0829275 .testi-v2-share > * {
+    margin-right: 5px;
+}
+.elementor-2545 .elementor-element.elementor-element-0829275 .testi-v2-item-box .image-wrap img {
+    object-fit: cover;
+}
+.testi-v2-des {
+    margin-bottom: 8px;
+}
+.testi-v2-designation {
+    color: #179BD7;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.testi-v2-name {
+    color: #1C1C1C;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.testi-v2-item-box .image-wrap img {
+    height: 160px;
+    width: 160px;
+    min-width: 160px;
+    margin-left: -65px;
+    margin-right: 30px;
+    border-radius: 10px;
+    border: 1px solid #E3E3E3;
+    object-fit: cover;
+}
+.testi-v2-item-box {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    border-radius: 20px;
+    border: 1px solid var(--Gray-200, #E3E3E3);
+    background: #ffffff;
+    margin-right: 10px;
+    padding: 50px 55px 50px 0px;
+    position: relative;
+}
+.elementor-widget:not(:last-child) {
+    margin-block-end: 20px;
+}
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+.slider-items .slick-arrow.prev {
+    left: 100px;
+}
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slider-items .slick-arrow.next {
+    right: 100px;
+}
+.slide-stitle span {
+    border-radius: 1000px;
+    border: 1px solid #DFDFDF;
+    box-shadow: 0px 8px 19px 0px rgba(0, 0, 0, 0.07);
+    padding: 11px 20px;
+    margin-right: 10px;
+    color: #179BD7;
+    font-family: --;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    background: #ffffff;
+    font-family: 'Kanit', sans-serif;
+}
+.slide-dec {
+    color:#ffffff;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34px;
+    margin-bottom: 60px;
+}
+.slider-button-wrapper .theme-btns {
+    margin-right: 48vh;
+}
+span.slider-cat-icon {
+    font-size: 30px;
+    margin-right: 10px;
+    color: #179BD7;
+}
+span.slider-cat-tex {
+    color: #ffffff;
+    font-weight: 500;
+}
+ul.slider-cat-box li {
+    list-style: none;
+    display: inline-flex;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    background: linear-gradient(91deg, rgba(19, 35, 53, 0.14) 40.72%, rgba(19, 34, 52, 0.14) 68.25%);
+    backdrop-filter: blur(6.5px);
+    padding: 18px 36px;
+    margin-right: 25px;
+    align-items: center;
+
+}
+.elementor:not(.elementor-bc-flex-widget) .elementor-widget-wrap {
+    display: flex;
+}
+.elementor-2545 .elementor-element.elementor-element-cd6b8ef {
+    padding: 120px 0px 95px 0px;
+}
+section.elementor-section.elementor-section-boxed>.elementor-container {
+    max-width: 1220px;
+}
+.elementor-section .elementor-container {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+ul.slider-cat-box {
+    margin: 0;
+    padding: 0;
+    margin-top: 1px;
+}
+.slider-video-button span {
+    color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 20px;
+}
+.theme-btns, input[type="submit"] {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 16px 30px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    transition: all .35s;
+    border: none;
+    background: #179BD7;
+    color: #ffffff;
+    transition: .4s;
+    border-radius: 5px;
+    letter-spacing: 0.32px;
+    text-transform: capitalize;
+    font-family:'Kanit', sans-serif;
+    line-height: normal;
+}
+.play-btn:after, .play-btn:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    border: 0;
+    z-index: -1;
+    border-radius: 50%;
+    transition: all ease 0.4s;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-name: ripple;
+}
+.play-btn>i {
+    line-height: 80px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid rgba(199, 134, 101, 0.2);
+    color: #179BD7;
+    border-radius: 50%;
+    z-index: 1;
+    transition: all ease 0.4s;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Font Awesome 5 Free";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+}
+.elementor-2545 .elementor-element.elementor-element-2cc5988 .slider-video-button .play-btn > i {
+    color: #FFFFFF;
+    background-color: #02010100;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF;
+}
+.elementor-2545 .elementor-element.elementor-element-2cc5988 .play-btn:after {
+    background-color: #02010100;
+}
+@keyframes ripple {
+    0% {
+        transform: scale(1);
+        opacity: 0;
+    }
+    30% {
+        opacity: .8;
+    }
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+.elementor-2545 .elementor-element.elementor-element-2cc5988 .play-btn:before {
+    background-color: #02010100;
+}
+.play-btn {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    top: -52px;
+    left: 52px;
+}
+.slide-title {
+    color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+    font-size: 83px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 91px;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    margin-bottom: 27px;
+}
+.slide-stitle {
+    margin-bottom: 23px;
+    display: flex;
+    justify-content: flex-start;
+    color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    margin-left: 83px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 34px;
+    letter-spacing: 2.43px;
+    text-transform: uppercase;
+    text-align: left;
+}
+.elementor-2545 .elementor-element.elementor-element-2cc5988 .slider-content-box {
+    margin: 100px 0px 0px 0px;
+}
+.slider-table-cell {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+}
+.slider-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.slick-track:before, .slick-track:after {
+    display: table;
+    content: '';
+}
+.slider-items .slick-arrow {
+    top: 63%;
+    z-index: 2;
+    font-size: 18px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    color: #ffffff;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #ffffff;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: transparent;
+}

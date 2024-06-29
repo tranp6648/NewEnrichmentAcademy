@@ -1,0 +1,302 @@
+.edupls-header {
+    position: relative;
+    z-index: 41;
+    width: 100%;
+}
+.header-top-wrapper {
+    background: #179BD7;
+    padding: 13px 0;
+}
+.header-center-wrapper {
+    padding: 25px 0 63px;
+}
+nav.main-navigation {
+    padding: 0;
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+}
+.main-menu ul li:first-child {
+    margin-left: 0 !important;
+}
+.header-one .main-menu>ul>li>a {
+    padding: 26px 0;
+    color: #ffffff;
+}
+.header-menu-wrapper:after {
+    content: '';
+    transform: skewX(-8deg);
+    background: #179BD7;
+    width: 100%;
+    height: 116%;
+    position: absolute;
+    top: 0;
+    z-index: -2;
+    border-radius: 10px;
+}
+.header-socials {
+    margin-right: 40px;
+}
+.header-socials ul li a {
+    width: 30px;
+    height: 30px;
+    background: #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    padding: 3px;
+    color: #179BD7;
+}
+.header-phone-box .icon {
+    margin-right: 10px;
+}
+.elementor-1245 .elementor-element.elementor-element-e55ffa5 .theme-button {
+    flex-direction: row;
+}
+.theme-button i {
+    position: relative;
+    top: 0px;
+    font-size: 100%;
+    margin-left: 10px;
+}
+.header-one .header-buttons .theme-button:after {
+    content: '';
+    transform: skewX(-8deg);
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    border-radius: 10px;
+    left: 0px;
+    transition: .4s;
+    
+}
+.header-one .header-buttons .theme-button {
+    margin-right: 20px;
+    color: #179BD7;
+    font-size: 16px;
+    text-transform: capitalize;
+    margin-top: 6px;
+    font-weight: 500;
+    font-family:'Kanit', sans-serif;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    position: relative;
+}
+.header-phone-box {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-family:'Kanit', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.header-phone {
+    margin-right: 40px;
+}
+.header-one .main-menu>ul>li>a:hover {
+    color: #1C1C1C;
+    transition: all ease 0.5s;
+}
+
+.header-socials ul li a:hover {
+    background-color: #1C1C1C;
+    color: #ffffff;
+    transition: all ease 0.5s;
+}
+.header-socials ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.header-socials ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header-social-btn-info {
+    display: flex;
+    align-items: center;
+}
+/* .main-menu ul li.menu-item-has-children>a:after {
+    content: "\f078";
+    position: relative;
+    margin-left: 3px;
+    top: 1px;
+    display: inline-block;
+    transition: 0.4s;
+    transform: rotate(0deg);
+    font-size: 12px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 800;
+} */
+.main-menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+}
+.main-menu>ul>li {
+    margin: 0 12px;
+}
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+}
+.elementor-1245 .elementor-element.elementor-element-e55ffa5 .edupls-header .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-start;
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+    }
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.header-one .header-menu-wrapper {
+    border-radius: 10px;
+    position: relative;
+    top: -38px;
+    position: relative;
+}
+.header-one .search-button button {
+    width: 55px;
+    height: 54px;
+    border-radius: 0;
+    border: 1px solid transparent;
+    background: #179BD7;
+    padding: 16px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+form.search-form .search-submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    font-size: 18px;
+}
+.header-one .header-search input[type="search"] {
+    min-width: 300px;
+    background: #F6FDFF;
+    color: #626262;
+    
+    max-height: 54px;
+    padding: 18px 20px;
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #DDE0E9;
+    margin-bottom: 0;
+    width: 100%;
+    border-radius: 10px;
+}
+.header-info-item:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+form.search-form {
+    position: relative;
+}
+.hinfo-dec {
+    color: #7b7386;
+    font-size: 16px;
+    font-style: normal;
+    text-transform: capitalize;
+    font-weight: 400;
+    line-height: normal;
+}
+.header-info-label {
+    text-transform: uppercase;
+    margin: 0;
+    color: #179BD7;
+    font-family: Kanit;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+.header-info-content {
+    line-height: 1;
+}
+.header-info-icon {
+    width: 50px;
+    height: 50px;
+    background: #179BD7;
+    border-radius: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFF;
+    margin-right: 10px;
+}
+.header-info-item {
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+    padding-right: 70px;
+    border-right: 1px dotted #BABABA;
+}
+.header-info-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-header-right a:not([href]):not([class]), .top-header-right a {
+    color: #FFFF;
+    display: flex;
+    align-items: center;
+    color: #FFFF;
+    font-size: 16px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.header-message {
+    color: #FFFF;
+    font-size: 16px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.header-login-regi ul {
+    margin: 0;
+    padding: 0;
+}
+.header-login-regi {
+    position: relative;
+}
+.top-header-itmes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-1220 {
+    max-width: 1220px;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+}

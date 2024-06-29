@@ -1,0 +1,199 @@
+.elementor-element {
+    --widgets-spacing: 20px 20px;
+}
+@media (max-width: 1024px) {
+    .elementor-section .elementor-container {
+        flex-wrap: wrap;
+    }
+}
+.elementor-1292 .elementor-element.elementor-element-a2fd048 .main-header {
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #FCFCFC1C;
+}
+.header-two .header-social-info {
+    display: flex;
+    align-items: center;
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+}
+.theme-button, .tutor-btn-primary, .tutor-btn {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background: #179BD7;
+    padding: 16px 30px;
+    clear: both;
+    border-radius: 5px;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    text-transform: capitalize;
+    font-family: 'Kanit', sans-serif;
+}
+.header-two .header-buttons a.theme-button:hover {
+    background: #ffffff;
+    color: #179BD7;
+    transition: all ease 0.5s;
+}
+.header-two .header-buttons .theme-button {
+    margin-right: 0px;
+    color:#ffffff;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    align-items: center;
+    background: #179BD7;
+    position: relative;
+}
+.header-user-icon, .button.search-open {
+    width: 35px;
+    height: 35px;
+    background: #179BD7 ;
+    border-radius: 100%;
+    text-align: center;
+    padding: 5px;
+    font-size: 16px;
+    color: #ffffff;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+.header-all-button-info {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.header-two .main-menu>ul>li>a {
+    padding: 39px 0;
+}
+.main-menu>ul>li>a {
+    padding: 17px 0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: 'Kanit', sans-serif;
+}
+.header-two .header-contact-content, .header-two .site-title a, .header-two .main-menu>ul>li>a {
+    color: #ffffff;
+}
+.main-menu ul li {
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+}
+.main-menu ul li:first-child {
+    margin-left: 0 !important;
+}
+.header-two .header-main-wrapper .main-menu {
+    justify-content: center;
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: auto;
+    }
+}
+.elementor img {
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+.elementor a {
+    box-shadow: none;
+    text-decoration: none;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.elementor-1292 .elementor-element.elementor-element-a2fd048 .main-header {
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #FCFCFC1C;
+}
+.elementor-1292 .elementor-element.elementor-element-a2fd048 .header-two .main-header {
+    position: absolute;
+}
+.header-two .header-social-info ul li a:hover {
+    color: #179BD7;
+    transition: all ease 0.5s;
+}
+.header-two .header-social-info ul li a {
+    color: #ffffff;
+    margin-right: 20px;
+}
+.header-two .header-social-info ul li {
+    display: inline-block;
+}
+.header-two .header-social-info span {
+    margin-right: -16px;
+    color: #ffffff;
+}
+.elementor:not(.elementor-bc-flex-widget) .elementor-widget-wrap {
+    display: flex;
+}
+.header-two .header-contact-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px 15px 0;
+    margin-right: 20px;
+    border-right: 1px solid #384350;
+}
+.header-two .header-contact-icon {
+    color: #179BD7;
+    margin-right: 10px;
+}
+.header-two .header-contact-items {
+    display: flex;
+}
+.header-two .header-top-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-two .header-top-wrapper {
+    border-bottom: 1px solid #384350;
+    background: #142439;
+    padding: 0;
+}
+.container-1220 {
+    max-width: 1220px;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.elementor-widget-wrap {
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.elementor-section .elementor-container {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+@media (min-width: 768px) {
+    .elementor-column.elementor-col-100, .elementor-column[data-col="100"] {
+        width: 100%;
+    }
+}

@@ -1,0 +1,206 @@
+.elementor-1428 .elementor-element.elementor-element-fb88073:not(.elementor-motion-effects-element-type-background), .elementor-1428 .elementor-element.elementor-element-fb88073 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-image: url(https://edupls.themepul.com/wp-content/uploads/2024/03/footer-two-img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.elementor-1428 .elementor-element.elementor-element-fb88073 {
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 100px 10px 95px 10px;
+}
+.elementor-widget-wrap>.elementor-element {
+    width: 100%;
+}
+.elementor-1428 .elementor-element.elementor-element-8d050fb .icon-box-v1-item .icon-box-v1-icon {
+    width: 70px;
+    min-width: 70px;
+    height: 70px;
+    font-size: 24px;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+}
+.about-social-wrapper ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.about-social-wrapper ul li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 0;
+}
+.elementor-1428 .elementor-element.elementor-element-3426e9b .edupls-page-links.footer-addons {
+    text-align: left;
+}
+.footer-addons .widget-title span {
+    position: relative;
+}
+.footer-addons .widget-title span:after {
+    content: "";
+    width: 45px;
+    height: 3px;
+    background: #179BD7;
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+}
+.edupls-page-links ul li a:hover {
+    color: #179BD7;
+    transition: all ease 0.5s;
+}
+.edupls-page-links ul li .icon {
+    display: inline-block;
+    margin-right: 5px;
+}
+.elementor-1428 .elementor-element.elementor-element-3426e9b .edupls-page-links ul li .icon {
+    float: left;
+}
+.edupls-page-links ul li a {
+    color:#FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+}
+.elementor-1428 .elementor-element.elementor-element-3426e9b .edupls-page-links ul li {
+    display: block;
+}
+.edupls-page-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.elementor-1428 .elementor-element.elementor-element-90efd43 .edupls-subscribe-box .footer-sort-dec {
+    color: #FFFFFF;
+}
+.wpcf7-form-control-wrap {
+    position: relative;
+}
+.footer-newsletter-two input[type="submit"] {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 10px 30px;
+}
+.footer-newsletter-two input[type="email"] {
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #626262;
+    border: 1px solid #e6e6e6;
+   
+    padding: 18px 20px;
+    box-shadow: none;
+    outline: none;
+    width: 100%;
+  
+    max-height: 54px;
+}
+.elementor-1428 .elementor-element.elementor-element-e089cba:not(.elementor-motion-effects-element-type-background), .elementor-1428 .elementor-element.elementor-element-e089cba > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #0B1813;
+}
+.edupls-page-links ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.elementor-1428 .elementor-element.elementor-element-ac2c6d9 .edupls-page-links ul li a {
+    margin: 0px 0px 0px 30px;
+    padding: 0px 0px 0px 0px;
+}
+.elementor-1428 .elementor-element.elementor-element-ac2c6d9 .edupls-page-links.footer-addons {
+    text-align: right;
+}
+.edupls-page-links ul li a {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+}
+.elementor-1428 .elementor-element.elementor-element-dbff4f2 .edupls-copyright-box a {
+    color: #179BD7;
+}
+
+.elementor-1428 .elementor-element.elementor-element-dbff4f2 .edupls-copyright-box {
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.elementor-1428 .elementor-element.elementor-element-e089cba {
+    border-style: dotted;
+    border-width: 1px 0px 0px 0px;
+    border-color: #373737;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 15px 10px 15px 10px;
+}
+.footer-addons .widget-title {
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Kanit', sans-serif;
+    line-height: 32px;
+    margin-bottom: 35px;
+}
+.about-social-wrapper ul li a:hover {
+    color: #ffffff !important;
+    background: #179BD7;
+}
+.about-social-wrapper ul li a i:hover{
+    color: #FFFFFF !important;
+}
+.about-social-wrapper ul li a {
+    width: 35px;
+    height: 35px;
+    background: #F4F4F4;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-logo {
+    margin-bottom: 20px;
+}
+.company-about-dec {
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.elementor-1428 .elementor-element.elementor-element-98b47c7 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 45px 0px 0px 0px;
+    margin-left: 18px;
+}
+.elementor-1428 .elementor-element.elementor-element-8d050fb .icon-box-v1-item .icon-box-v1-dec {
+    color: #FFFFFF;
+}
+.elementor-1428 .elementor-element.elementor-element-8d050fb .icon-box-v1-item .icon-box-v1-dec, .elementor-1428 .elementor-element.elementor-element-8d050fb .icon-box-v1-item .icon-box-v1-dec p {
+    font-size: 20px;
+    font-weight: 500;
+}
+.elementor-1428 .elementor-element.elementor-element-8d050fb .icon-box-v1-item .icon-box-v1-title {
+    color: #FFFFFF;
+    margin: 0px 0px 3px 0px;
+}
+.icon-box-v1-icon {
+    font-size: 50px;
+    margin-right: 20px;
+    color: #179BD7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elementor-1428 .elementor-element.elementor-element-8d050fb .icon-box-v1-item {
+    flex-direction: left;
+    text-align: left;
+    align-items: left;
+    background-color: #02010100;
+    border-style: dotted;
+    border-width: 1px 1px 1px 1px;
+    border-color: #179BD7;
+    padding: 22px 45px 22px 45px;
+}
