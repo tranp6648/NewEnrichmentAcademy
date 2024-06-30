@@ -1,6 +1,35 @@
 <script setup>
-import layout from '../layout/layout.vue'
-</script>
+  import { ref, onMounted } from 'vue';
+  import Cookies from 'js-cookie';
+  import { useRouter } from 'vue-router';
+  import layout from '../layout/layout.vue'
+  
+  const sessionData = ref(null); 
+  const router = useRouter();
+  
+  
+  const getUserSession = () => {
+    const userSession = Cookies.get('UserSession');
+    if (userSession) {
+      return JSON.parse(userSession);
+    }
+    return null;
+  };
+  
+  // Hook được gọi khi component được mounted
+  onMounted(() => {
+    const data = getUserSession();
+  
+    if (data) {
+      sessionData.value = data;
+     // Log sessionData.value khi được set
+    } else {
+      // Nếu không có dữ liệu phiên hoặc vai trò không đúng, chuyển hướng đến trang đăng nhập
+      router.push('/login');
+    }
+  });
+
+  </script>
 <template>
     <div class="skin-blue wysihtml5-supported">
         <div class="wrapper">

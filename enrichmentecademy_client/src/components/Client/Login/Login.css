@@ -1,0 +1,29 @@
+.tutor-btn.tutor-btn-ghost {
+    padding: 12px 25px !important;
+}
+.theme-button, .tutor-btn-primary, .tutor-btn {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    background: #179BD7;
+    padding: 16px 30px;
+    clear: both;
+    border-radius: 5px;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    text-transform: capitalize;
+    font-family: 'Kanit', sans-serif;
+}
+.tutor-color-secondary {
+    color: #1C1C1C;
+}
+.tutor-btn-link:after {
+    content: " ";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: #395bca;
+    transition: width 200ms ease-in-out;
+}

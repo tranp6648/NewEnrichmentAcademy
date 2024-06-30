@@ -1,3 +1,32 @@
+<script setup>
+    import { ref, onMounted } from 'vue';
+  import Cookies from 'js-cookie';
+  import { useRouter } from 'vue-router';
+  const sessionData = ref(null); // Biến reactive để lưu trữ dữ liệu phiên đăng nhập
+  const router = useRouter();
+  
+  // Hàm để lấy dữ liệu phiên đăng nhập từ cookie
+  const getUserSession = () => {
+    const userSession = Cookies.get('UserSession');
+    if (userSession) {
+      return JSON.parse(userSession);
+    }
+    return null;
+  };
+  
+  // Hook được gọi khi component được mounted
+  onMounted(() => {
+    const data = getUserSession();
+  
+    if (data) {
+      sessionData.value = data;
+     // Log sessionData.value khi được set
+    } else {
+      // Nếu không có dữ liệu phiên hoặc vai trò không đúng, chuyển hướng đến trang đăng nhập
+      router.push('/login');
+    }
+  });
+</script>
 <template>
     <header class="main-header" style="max-height: 54px;">
         <!-- Logo -->
@@ -47,7 +76,7 @@
      
             </li>
             <li class="active treeview">
-              <router-link to="/CreateAcc" >
+              <router-link to="/CreateAcc" :state="sessionData" >
                 <i class="fa fa-dashboard"></i> <span>Teacher</span> 
               </router-link>
      

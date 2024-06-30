@@ -1,6 +1,6 @@
 <script setup>
   import layout from '../layout/layout.vue';
-
+  import Swal from 'sweetalert2';
 </script>
 <template>
   <div class="skin-blue wysihtml5-supported">
@@ -10,7 +10,7 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
           <h1>
-          Manager Teacher
+            Manager Teacher
             <small>advanced tables</small>
           </h1>
           <ol class="breadcrumb">
@@ -24,7 +24,7 @@
         <section class="content">
           <div class="row">
             <div class="col-xs-12">
-             
+
               <div class="box">
                 <div class="box-header">
                   <h3 class="box-title">Teacher</h3>
@@ -32,13 +32,14 @@
                 <div class="box-body">
                   <table id="example1" class="table table-bordered table-hover">
                     <thead>
-                     <tr>
-                      <th>#</th>
-                      <th>Name</th>
-                      <th>Email</th>
-                      <th>Birthday</th>
-                      <th>Phone</th>
-                     </tr>
+                      <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Birthday</th>
+                        <th>Phone</th>
+                        <th>Approve</th>
+                      </tr>
                     </thead>
                     <tbody>
                       <tr v-for="(account,index) in accounts" :key="account.id">
@@ -47,7 +48,12 @@
                         <td>{{account.email}}</td>
                         <td>{{formatDate(account.birthday)}}</td>
                         <td>{{account.phone}}</td>
-                        <td></td>
+                        <td><button @click="ApproveActive(account.id,account.email)"
+                            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-[0.8rem] px-4 rounded "
+                            :disabled="account.isActive===true" :style="{
+                          opacity: account.isActive=== true ? 0.5 : 1,
+                          cursor: account.isActive=== true ? 'not-allowed' : 'pointer'
+                        }">Approve</button></td>
                       </tr>
                     </tbody>
                   </table>
@@ -69,30 +75,59 @@
 </template>
 <script>
   import { ref } from 'vue';
-  import { ShowAccount } from '../../Services/AccountService';
-  import Swal from 'sweetalert2';
+  import { ShowAccount, ApproveAccount } from '../../Services/AccountService';
+ 
   export default {
     data() {
       return {
-      accounts:[]
+        accounts: []
       }
     },
-    async mounted(){
-      try{
-        const data=await ShowAccount();
-        this.accounts=data;
-      }catch(error){
+    async mounted() {
+      try {
+        const data = await ShowAccount();
+        this.accounts = data;
+      } catch (error) {
         console.error('Error fetching accounts:', error);
       }
     },
     methods: {
       formatDate(dateString) {
-      return new Date(dateString).toLocaleString('en-GB', {
-        day: 'numeric',
-        month: 'short',
-        year: 'numeric'
-      });
-    }
+        return new Date(dateString).toLocaleString('en-GB', {
+          day: 'numeric',
+          month: 'short',
+          year: 'numeric'
+        });
+      },
+      async fetchdata() {
+        try {
+          const data = await ShowAccount();
+          this.accounts = data;
+        } catch (error) {
+          console.error('Error fetching accounts:', error);
+        }
+      },
+      async ApproveActive(Id,Email) {
+        try {
+          const response = await ApproveAccount(Id,Email);
+          if(response){
+            Swal.fire({
+              icon: 'success',
+              title: 'Approve Success',
+              showConfirmButton: false,
+              timer: 1500,
+            });
+         await this.fetchdata();
+          }
+        } catch (error) {
+          Swal.fire({
+            icon: 'error',
+            title: 'Login Failed',
+            showConfirmButton: false,
+            timer: 1500,
+          });
+        }
+      }
     }
 
 

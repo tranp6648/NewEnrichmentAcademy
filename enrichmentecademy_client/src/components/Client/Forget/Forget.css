@@ -1,0 +1,26 @@
+.tutor-forgot-password-form, .tutor-reset-password-form {
+    max-width: 520px;
+    padding: 15px;
+    margin: 0 auto;
+    padding: 15px !important;
+}
+
+.tutor-alert.tutor-success {
+    background: #ffffff;
+    color: #41454F;
+    border: 1px solid rgba(36, 161, 72, 0.7);
+}
+@media (min-width: 768px) {
+    .tutor-alert .tutor-alert-text {
+        align-items: center;
+    }
+}
+
+.tutor-alert.tutor-success .tutor-alert-icon {
+    color: #24A148;
+    font-family: "tutor" !important;
+}
+.tutor-alert .tutor-alert-text {
+    color:#41454F;
+    display: flex;
+}

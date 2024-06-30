@@ -15,6 +15,83 @@
     color: #ffffff;
   
 }
+.editor-styles-wrapper, .entry-content {
+    counter-reset: footnotes;
+}
+.tutor-form-group {
+    margin-bottom: 32px;
+}
+.row {
+   
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y)* -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2);
+}
+.row {
+    margin: 0 -10px;
+}
+.tutor-login-wrap, #tutor-registration-wrap {
+   
+}
+#tutor-registration-form {
+    padding: 0;
+}
+.tutor-btn::before{
+    content: '';
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 3px;
+    border: 2px solid #179BD7;
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+}
+.theme-button:hover, .tutor-btn-primary:hover, .tutor-btn:hover {
+    color: #ffffff;
+    background-color: #1C1C1C;
+}
+.tutor-btn{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 16px 30px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    transition: all .35s;
+    border: none;
+    background: #179BD7;
+    color: #ffffff;
+    transition: .4s;
+    border-radius: 5px;
+    letter-spacing: 0.32px;
+    text-transform: capitalize;
+    font-family: 'Kanit', sans-serif;
+    line-height: normal;
+}
+.tutor-login-wrap, #tutor-registration-wrap {
+    max-width: 1120px;
+    padding: 50px;
+    margin: 0 auto;
+  
+    box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+    border-radius: 5px;
+}
+.clear:before, .clear:after, .entry-content:before, .entry-content:after, .comment-content:before, .comment-content:after, .site-header:before, .site-header:after, .site-content:before, .site-content:after, .site-footer:before, .site-footer:after {
+    content: "";
+    display: table;
+    table-layout: fixed;
+}
+.clear:after, .entry-content:after, .comment-content:after, .site-header:after, .site-content:after, .site-footer:after {
+    clear: both;
+}
 .breadcroumn-contnt .bre-sub a {
     color: #ffffff;
     text-transform: capitalize;
