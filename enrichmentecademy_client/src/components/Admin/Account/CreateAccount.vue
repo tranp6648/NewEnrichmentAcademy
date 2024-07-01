@@ -1,6 +1,7 @@
 <script setup>
   import layout from '../layout/layout.vue';
   import Swal from 'sweetalert2';
+ 
 </script>
 <template>
   <div class="skin-blue wysihtml5-supported">
@@ -29,6 +30,10 @@
                 <div class="box-header">
                   <h3 class="box-title">Teacher</h3>
                 </div><!-- /.box-header -->
+                <form class="forms-sample" >
+                                            <label for="exampleInputUsername1">Search</label>
+                                            <input type="text" class="form-control" id="exampleInputUsername1" placeholder="Enter Name" v-model="searchQuery" />
+                                        </form>
                 <div class="box-body">
                   <table id="example1" class="table table-bordered table-hover">
                     <thead>
@@ -42,7 +47,7 @@
                       </tr>
                     </thead>
                     <tbody>
-                      <tr v-for="(account,index) in accounts" :key="account.id">
+                      <tr v-for="(account,index) in PaginatedAccounts" :key="account.id">
                         <td>{{index+1}}</td>
                         <td>{{account.name}}</td>
                         <td>{{account.email}}</td>
@@ -57,6 +62,11 @@
                       </tr>
                     </tbody>
                   </table>
+                  <div class="pagination" style="display: flex;justify-content: flex-start;">
+        <button @click="prevPage" :disabled="currentPage === 1">Previous</button>
+        <button v-for="page in totalPages" :key="page" @click="setPage(page)" :class="{ active: page === currentPage }">{{ page }}</button>
+        <button @click="nextPage" :disabled="currentPage === totalPages">Next</button>
+      </div>
                 </div><!-- /.box-body -->
               </div><!-- /.box -->
             </div><!-- /.col -->
@@ -74,13 +84,20 @@
   </div>
 </template>
 <script>
+import pagination from 'vue-pagination-2'
   import { ref } from 'vue';
   import { ShowAccount, ApproveAccount } from '../../Services/AccountService';
- 
+
   export default {
+    components: {
+    pagination
+  },
     data() {
       return {
-        accounts: []
+        searchQuery:'',
+        accounts: [],
+        currentPage:1,
+        perPage:5
       }
     },
     async mounted() {
@@ -91,6 +108,19 @@
         console.error('Error fetching accounts:', error);
       }
     },
+    computed:{
+      filteredAccounts(){
+        return this.accounts.filter(account=>account.name.toLowerCase().includes(this.searchQuery.toLowerCase()))
+      },
+      PaginatedAccounts(){
+        const start=(this.currentPage-1)*this.perPage;
+        const end=start+this.perPage;
+        return this.filteredAccounts.slice(start,end);
+      },
+      totalPages(){
+        return Math.ceil(this.filteredAccounts.length/this.perPage);
+      }
+    },
     methods: {
       formatDate(dateString) {
         return new Date(dateString).toLocaleString('en-GB', {
@@ -99,6 +129,19 @@
           year: 'numeric'
         });
       },
+      setPage(page) {
+      this.currentPage = page;
+    },
+    prevPage(){
+      if(this.currentPage>1){
+        this.currentPage--;
+      }
+    },
+    nextPage(){
+      if(this.currentPage<this.totalPages){
+        this.currentPage++;
+      }
+    },
       async fetchdata() {
         try {
           const data = await ShowAccount();
@@ -128,8 +171,34 @@
           });
         }
       }
-    }
+    },
+    mounted() {
+    this.fetchdata();
+  }
+
 
 
   }
 </script>
+<style>
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.pagination button {
+  margin: 0 0.25rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+.pagination button[disabled] {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+.pagination button.active {
+  background: #0056b3;
+}
+</style>

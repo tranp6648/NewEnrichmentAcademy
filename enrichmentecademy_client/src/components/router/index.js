@@ -6,7 +6,9 @@ import Register from '../Client/Register/Register.vue';
 import Login from '../Client/Login/Login.vue';
 import ResetPassword from '../Client/Forget/Forget.vue';
 import OTP from '../Client/OTP/OTP.vue';
+import RetrievePassword from '../Client/Retrieve-Password/Retrieve-Password.vue'
 import { comment } from "postcss";
+import Faculty from "../Admin/Faculty/Faculty.vue";
 const routes=[
     {
         path:'/Home',
@@ -35,6 +37,12 @@ const routes=[
     },{
         path:'/OTP/:email',
         component:OTP
+    },{
+        path:'/RetriPassword/:email',
+        component:RetrievePassword
+    },{
+        path:'/Faculty',
+        component:Faculty
     }
 ]
 const router = createRouter({

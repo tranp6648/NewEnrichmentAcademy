@@ -1,3 +1,4 @@
+using EnrichmentAcademy.Midlewares;
 using EnrichmentAcademy.Models;
 using EnrichmentAcademy.Services;
 using Microsoft.AspNetCore.Builder;
@@ -32,8 +33,10 @@ builder.Services.AddDbContext<DatabaseContext>(options =>
 
 // Register your AccountService implementation
 builder.Services.AddScoped<AccoutService, AccountServiceImpl>();
+builder.Services.AddScoped<FacultyServiece, FacultyServiceImpl>();
 
 var app = builder.Build();
+app.UseMiddleware<CheckOTPMiddleware>();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

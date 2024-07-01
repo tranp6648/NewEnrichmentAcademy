@@ -3,24 +3,52 @@
   "WorkspaceRootPath": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|d:\\newenrichmentacademy\\enrichmentacademy_server\\services\\accountserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|solutionrelative:services\\accountserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|d:\\newenrichmentacademy\\enrichmentacademy_server\\services\\facultyserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|solutionrelative:services\\facultyserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|d:\\newenrichmentacademy\\enrichmentacademy_server\\services\\facultyserviece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|solutionrelative:services\\facultyserviece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|d:\\newenrichmentacademy\\enrichmentacademy_server\\controllers\\facultycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|solutionrelative:controllers\\facultycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|d:\\newenrichmentacademy\\enrichmentacademy_server\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|d:\\newenrichmentacademy\\enrichmentacademy_server\\services\\accoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|solutionrelative:services\\accoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|d:\\newenrichmentacademy\\enrichmentacademy_server\\services\\accountserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|solutionrelative:services\\accountserviceimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|d:\\newenrichmentacademy\\enrichmentacademy_server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|d:\\newenrichmentacademy\\enrichmentacademy_server\\addaccountteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|solutionrelative:addaccountteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|d:\\newenrichmentacademy\\enrichmentacademy_server\\data\\createfaculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|solutionrelative:data\\createfaculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|d:\\newenrichmentacademy\\enrichmentacademy_server\\services\\accoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|solutionrelative:services\\accoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|d:\\newenrichmentacademy\\enrichmentacademy_server\\midlewares\\checkotpmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|solutionrelative:midlewares\\checkotpmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|d:\\newenrichmentacademy\\enrichmentacademy_server\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|solutionrelative:models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|d:\\newenrichmentacademy\\enrichmentacademy_server\\data\\addaccountteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|solutionrelative:data\\addaccountteacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|d:\\newenrichmentacademy\\enrichmentacademy_server\\enrichmentacademy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|solutionrelative:enrichmentacademy.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|d:\\newenrichmentacademy\\enrichmentacademy_server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -33,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|d:\\newenrichmentacademy\\enrichmentacademy_server\\models\\accountcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|solutionrelative:models\\accountcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|d:\\newenrichmentacademy\\enrichmentacademy_server\\models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F16384F3-841C-4169-991F-3809168408A1}|EnrichmentAcademy.csproj|solutionrelative:models\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,19 +106,119 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FacultyServiceImpl.cs",
+              "DocumentMoniker": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Services\\FacultyServiceImpl.cs",
+              "RelativeDocumentMoniker": "Services\\FacultyServiceImpl.cs",
+              "ToolTip": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Services\\FacultyServiceImpl.cs",
+              "RelativeToolTip": "Services\\FacultyServiceImpl.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAuwCcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T08:35:57.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FacultyServiece.cs",
+              "DocumentMoniker": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Services\\FacultyServiece.cs",
+              "RelativeDocumentMoniker": "Services\\FacultyServiece.cs",
+              "ToolTip": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Services\\FacultyServiece.cs",
+              "RelativeToolTip": "Services\\FacultyServiece.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T08:31:21.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAYwFAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T05:15:14.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAAACEAAAAoAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACMAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-29T05:20:58.617Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
+              "Title": "FacultyController.cs",
+              "DocumentMoniker": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Controllers\\FacultyController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FacultyController.cs",
+              "ToolTip": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Controllers\\FacultyController.cs",
+              "RelativeToolTip": "Controllers\\FacultyController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAQwB8AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T08:45:38.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountServiceImpl.cs",
+              "DocumentMoniker": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Services\\AccountServiceImpl.cs",
+              "RelativeDocumentMoniker": "Services\\AccountServiceImpl.cs",
+              "ToolTip": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Services\\AccountServiceImpl.cs",
+              "RelativeToolTip": "Services\\AccountServiceImpl.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAADwv1wAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T04:55:59.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddAccountTeacher.cs",
+              "DocumentMoniker": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Data\\AddAccountTeacher.cs",
+              "RelativeDocumentMoniker": "Data\\AddAccountTeacher.cs",
+              "ToolTip": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Data\\AddAccountTeacher.cs",
+              "RelativeToolTip": "Data\\AddAccountTeacher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T04:56:32.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateFaculty.cs",
+              "DocumentMoniker": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Data\\CreateFaculty.cs",
+              "RelativeDocumentMoniker": "Data\\CreateFaculty.cs",
+              "ToolTip": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Data\\CreateFaculty.cs",
+              "RelativeToolTip": "Data\\CreateFaculty.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T08:35:11.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "Models\\Account.cs",
+              "ToolTip": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Models\\Account.cs",
+              "RelativeToolTip": "Models\\Account.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T04:56:51.657Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -106,68 +230,55 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAawBUAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T05:15:14.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Account.cs",
-              "DocumentMoniker": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Models\\Account.cs",
-              "RelativeDocumentMoniker": "Models\\Account.cs",
-              "ToolTip": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Models\\Account.cs",
-              "RelativeToolTip": "Models\\Account.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAA3wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T04:56:51.657Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddAccountTeacher.cs",
-              "DocumentMoniker": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\AddAccountTeacher.cs",
-              "RelativeDocumentMoniker": "AddAccountTeacher.cs",
-              "ToolTip": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\AddAccountTeacher.cs",
-              "RelativeToolTip": "AddAccountTeacher.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T04:56:32.356Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountServiceImpl.cs",
-              "DocumentMoniker": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Services\\AccountServiceImpl.cs",
-              "RelativeDocumentMoniker": "Services\\AccountServiceImpl.cs",
-              "ToolTip": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Services\\AccountServiceImpl.cs",
-              "RelativeToolTip": "Services\\AccountServiceImpl.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAuwE8AAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T04:55:59.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "AccoutService.cs",
               "DocumentMoniker": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Services\\AccoutService.cs",
               "RelativeDocumentMoniker": "Services\\AccoutService.cs",
               "ToolTip": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Services\\AccoutService.cs",
               "RelativeToolTip": "Services\\AccoutService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAkAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-29T04:55:44.382Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
+              "Title": "CheckOTPMiddleware.cs",
+              "DocumentMoniker": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Midlewares\\CheckOTPMiddleware.cs",
+              "RelativeDocumentMoniker": "Midlewares\\CheckOTPMiddleware.cs",
+              "ToolTip": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Midlewares\\CheckOTPMiddleware.cs",
+              "RelativeToolTip": "Midlewares\\CheckOTPMiddleware.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAwBQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T03:03:21.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Models\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "Models\\DatabaseContext.cs",
+              "ToolTip": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Models\\DatabaseContext.cs",
+              "RelativeToolTip": "Models\\DatabaseContext.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAmwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-29T04:24:17.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EnrichmentAcademy.csproj",
+              "DocumentMoniker": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\EnrichmentAcademy.csproj",
+              "RelativeDocumentMoniker": "EnrichmentAcademy.csproj",
+              "ToolTip": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\EnrichmentAcademy.csproj",
+              "RelativeToolTip": "EnrichmentAcademy.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-30T04:54:44.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "AccountCourse.cs",
               "DocumentMoniker": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Models\\AccountCourse.cs",
               "RelativeDocumentMoniker": "Models\\AccountCourse.cs",
@@ -176,18 +287,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-29T04:59:34.188Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DatabaseContext.cs",
-              "DocumentMoniker": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Models\\DatabaseContext.cs",
-              "RelativeDocumentMoniker": "Models\\DatabaseContext.cs",
-              "ToolTip": "D:\\NewEnrichmentAcademy\\enrichmentacademy_server\\Models\\DatabaseContext.cs",
-              "RelativeToolTip": "Models\\DatabaseContext.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAA5wB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-29T04:24:17.679Z"
             }
           ]
         }

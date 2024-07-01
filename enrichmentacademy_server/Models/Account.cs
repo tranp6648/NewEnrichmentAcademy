@@ -21,6 +21,10 @@ public partial class Account
 
     public string? Otp { get; set; }
 
+    public bool IsActive { get; set; }
+
+    public DateTime? Otptime { get; set; }
+
     public virtual ICollection<AccountCourse> AccountCourses { get; set; } = new List<AccountCourse>();
 
     public virtual AccountPackage? AccountPackage { get; set; }

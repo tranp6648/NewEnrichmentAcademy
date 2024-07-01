@@ -70,14 +70,20 @@
           <ul class="sidebar-menu">
             <li class="header">MAIN NAVIGATION</li>
             <li class="active treeview">
-              <a href="#">
+              <router-link to="/HomeAdmin" :state="sessionData" >
                 <i class="fa fa-dashboard"></i> <span>Dashboard</span> 
-              </a>
+              </router-link>
      
             </li>
             <li class="active treeview">
               <router-link to="/CreateAcc" :state="sessionData" >
                 <i class="fa fa-dashboard"></i> <span>Teacher</span> 
+              </router-link>
+     
+            </li>
+            <li class="active treeview">
+              <router-link to="/Faculty" :state="sessionData" >
+                <i class="fa fa-dashboard"></i> <span>Faculty</span> 
               </router-link>
      
             </li>

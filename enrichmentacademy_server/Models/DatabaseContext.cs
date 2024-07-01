@@ -42,7 +42,7 @@ public partial class DatabaseContext : DbContext
     public virtual DbSet<SubjectPackage> SubjectPackages { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+
         => optionsBuilder.UseSqlServer("Server=LAPTOP-OARQJFR4;Database=OnlineCourse;user id=sa;password=123;trusted_connection=true;encrypt=false");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -61,6 +61,9 @@ public partial class DatabaseContext : DbContext
                 .HasMaxLength(10)
                 .IsUnicode(false)
                 .HasColumnName("OTP");
+            entity.Property(e => e.Otptime)
+                .HasColumnType("datetime")
+                .HasColumnName("OTPTime");
             entity.Property(e => e.Password)
                 .HasMaxLength(200)
                 .IsUnicode(false);
