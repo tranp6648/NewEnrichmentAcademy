@@ -13,5 +13,5 @@ public partial class SubjectPackage
 
     public virtual Package IdPackageNavigation { get; set; } = null!;
 
-    public virtual Subject IdSubjectNavigation { get; set; } = null!;
+    public virtual SubjectDb IdSubjectNavigation { get; set; } = null!;
 }

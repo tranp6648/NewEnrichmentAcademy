@@ -12,6 +12,4 @@ public partial class LessonSubject
     public int IdPackage { get; set; }
 
     public virtual Package IdPackageNavigation { get; set; } = null!;
-
-    public virtual Subject IdSubjectNavigation { get; set; } = null!;
 }

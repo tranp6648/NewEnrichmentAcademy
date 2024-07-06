@@ -7,4 +7,6 @@ import router from './components/router';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 
 
-createApp(App).use(router).mount('#app')
+import { VueSelect } from 'vue-select';
+
+createApp(App).use(router).component("v-select", VueSelect).mount('#app')

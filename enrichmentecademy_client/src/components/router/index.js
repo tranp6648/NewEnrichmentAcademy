@@ -6,8 +6,10 @@ import Register from '../Client/Register/Register.vue';
 import Login from '../Client/Login/Login.vue';
 import ResetPassword from '../Client/Forget/Forget.vue';
 import OTP from '../Client/OTP/OTP.vue';
-import RetrievePassword from '../Client/Retrieve-Password/Retrieve-Password.vue'
+import RetrievePassword from '../Client/Retrieve-Password/Retrieve-Password.vue';
+import Subject from '../Admin/Subject/Subject.vue';
 import { comment } from "postcss";
+import Package from "../Admin/Package/Package.vue";
 import Faculty from "../Admin/Faculty/Faculty.vue";
 const routes=[
     {
@@ -43,6 +45,12 @@ const routes=[
     },{
         path:'/Faculty',
         component:Faculty
+    },{
+        path:'/Subject',
+        component:Subject
+    },{
+        path:'/Package',
+        component:Package
     }
 ]
 const router = createRouter({

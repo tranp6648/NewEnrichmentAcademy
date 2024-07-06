@@ -37,12 +37,12 @@ public partial class DatabaseContext : DbContext
 
     public virtual DbSet<Rating> Ratings { get; set; }
 
-    public virtual DbSet<Subject> Subjects { get; set; }
+    public virtual DbSet<SubjectDb> SubjectDbs { get; set; }
 
     public virtual DbSet<SubjectPackage> SubjectPackages { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("Server=LAPTOP-OARQJFR4;Database=OnlineCourse;user id=sa;password=123;trusted_connection=true;encrypt=false");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -160,11 +160,6 @@ public partial class DatabaseContext : DbContext
                 .HasForeignKey(d => d.IdPackage)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_Lesson_Subject_Package");
-
-            entity.HasOne(d => d.IdSubjectNavigation).WithMany(p => p.LessonSubjects)
-                .HasForeignKey(d => d.IdSubject)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Lesson_Subject_Subject");
         });
 
         modelBuilder.Entity<Package>(entity =>
@@ -174,6 +169,7 @@ public partial class DatabaseContext : DbContext
             entity.Property(e => e.Name)
                 .HasMaxLength(200)
                 .IsUnicode(false);
+            entity.Property(e => e.PricePackage).HasColumnType("money");
         });
 
         modelBuilder.Entity<Photo>(entity =>
@@ -195,19 +191,26 @@ public partial class DatabaseContext : DbContext
                 .HasConstraintName("FK_Rating_Account");
         });
 
-        modelBuilder.Entity<Subject>(entity =>
+        modelBuilder.Entity<SubjectDb>(entity =>
         {
-            entity.ToTable("Subject");
+            entity.ToTable("SubjectDb");
 
+            entity.Property(e => e.IdFacultity).HasColumnName("idFacultity");
+            entity.Property(e => e.IdPhoto).HasColumnName("idPhoto");
             entity.Property(e => e.Name)
                 .HasMaxLength(200)
                 .IsUnicode(false);
             entity.Property(e => e.Price).HasColumnType("money");
 
-            entity.HasOne(d => d.IdPhotoNavigation).WithMany(p => p.Subjects)
+            entity.HasOne(d => d.IdFacultityNavigation).WithMany(p => p.SubjectDbs)
+                .HasForeignKey(d => d.IdFacultity)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_SubjectDb_Faculty");
+
+            entity.HasOne(d => d.IdPhotoNavigation).WithMany(p => p.SubjectDbs)
                 .HasForeignKey(d => d.IdPhoto)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Subject_Photo");
+                .HasConstraintName("FK_SubjectDb_Photo");
         });
 
         modelBuilder.Entity<SubjectPackage>(entity =>
@@ -222,7 +225,7 @@ public partial class DatabaseContext : DbContext
             entity.HasOne(d => d.IdSubjectNavigation).WithMany(p => p.SubjectPackages)
                 .HasForeignKey(d => d.IdSubject)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Subject_Package_Subject");
+                .HasConstraintName("FK_Subject_Package_SubjectDb");
         });
 
         OnModelCreatingPartial(modelBuilder);

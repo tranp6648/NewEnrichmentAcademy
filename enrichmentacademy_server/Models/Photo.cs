@@ -9,5 +9,5 @@ public partial class Photo
 
     public string Link { get; set; } = null!;
 
-    public virtual ICollection<Subject> Subjects { get; set; } = new List<Subject>();
+    public virtual ICollection<SubjectDb> SubjectDbs { get; set; } = new List<SubjectDb>();
 }

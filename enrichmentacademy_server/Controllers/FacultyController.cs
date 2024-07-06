@@ -29,6 +29,7 @@ namespace EnrichmentAcademy.Controllers
                 return BadRequest();
             }
         }
+       
         [HttpDelete("DeleteFaculty/{id}")]
         public async Task<IActionResult> DeleteFaculty(int id)
         {

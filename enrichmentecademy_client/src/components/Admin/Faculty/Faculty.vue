@@ -192,7 +192,7 @@
         methods: {
             async HandleUpdateFaculty() {
                 try {
-                    console.log(this.FromData.id)
+                   
                     const response = await UpdateFaculty(this.FromData.id, {
                         name: this.FromData.UpdateName
                     });

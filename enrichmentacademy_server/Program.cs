@@ -34,6 +34,8 @@ builder.Services.AddDbContext<DatabaseContext>(options =>
 // Register your AccountService implementation
 builder.Services.AddScoped<AccoutService, AccountServiceImpl>();
 builder.Services.AddScoped<FacultyServiece, FacultyServiceImpl>();
+builder.Services.AddScoped<SubjectService, SubjectServieImpl>();
+builder.Services.AddScoped<PackageService, PackageServiceImpl>();
 
 var app = builder.Build();
 app.UseMiddleware<CheckOTPMiddleware>();
@@ -47,7 +49,11 @@ if (app.Environment.IsDevelopment())
 
 // Use CORS middleware
 app.UseCors("ReactPolicy");
-
+app.UseStaticFiles(new StaticFileOptions
+{
+    ServeUnknownFileTypes = true,
+    DefaultContentType = "application/octet-stream"
+});
 app.UseAuthorization();
 
 app.MapControllers();
